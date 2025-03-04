@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Top Section -->
+<nav class="navbar">
+    <div class="container">
+      <!-- Logo Section -->
+      <a href="#" class="logo">
+        <img src="image copy.png" alt="Restaurant Logo" class="logo-image">
+        <span>SADHNA FAMILY RESTAURANT
+        </span>
+      </a>
+  
+      <!-- Navigation Buttons -->
+      <div class="nav-buttons">
+        <a href="#home" class="btn">Home</a>
+        <a href="#help" class="btn">Help</a>
+        <a href="#menu" class="btn">Menu</a>
+        <a href="#order" class="btn">Order</a>
+      </div>
+    </div>
+  </nav>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <div class="container text-center">
+      <h1>Welcome</h1>
+      <p>Where flavour meets the soul!</p>
+      <a href="#menu" class="btn btn-primary">Explore Menu</a>
+    </div>
+  </header>
+
+  <div class="about-section">
+    <div class="theme-toggle">
+      <button id="toggle-theme">Switch Theme</button>
+    </div>
+    <div class="about-restaurant">
+      <img src="photo02.jpg" alt="Restaurant" class="restaurant-image">
+      <div class="restaurant-description">
+        <h1>Welcome to Our Restaurant</h1>
+        <p>
+          At our restaurant, we believe in creating memorable dining experiences. 
+          With a focus on delicious food, warm hospitality, and a cozy atmosphere, 
+          we aim to bring people together through great meals.
+        </p>
+      </div>
+    </div>
+    <div class="staff-section">
+      <h2>Meet Our Team</h2>
+      <div class="staff-cards">
+        <div class="staff-card">
+          <img src="photo04.jpg" alt="Chef John" class="staff-image">
+          <h3>chef</h3>
+          <p>Passionate about creating innovative and delicious recipes.</p>
+        </div>
+        <div class="staff-card">
+          <img src="manger.jpeg" alt="Manager Sarah" class="staff-image">
+          <h3>Manager</h3>
+          <p>Ensures your dining experience is nothing short of excellent.</p>
+        </div>
+        <div class="staff-card">
+          <img src="waiter .jpg" alt="Waiter Alex" class="staff-image">
+          <h3>Waiter Alex</h3>
+          <p>Dedicated to serving with a smile and making you feel at home.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Menu Section -->
+  <section id="menu" class="section bg-light">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-item">
+        <h3>Grilled Salmon</h3>
+        <p>Freshly grilled salmon served with a side of seasonal vegetables. $25</p>
+      </div>
+      <div class="menu-item">
+        <h3>Margherita Pizza</h3>
+        <p>Classic Italian pizza with fresh mozzarella and basil. $18</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm chocolate cake with a gooey center. $10</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <p>© 2025 Gourmet Delight. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
